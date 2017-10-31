@@ -13,15 +13,16 @@ var lcells = 0;
 
 var cells = [];
 var saveArray = [];
-
+/*
 function preload() {
   soundFormats('mp3', 'ogg');
   myMusic = loadSound('assets/backgroundMusic.mp3');
 }
+*/
 
 function setup() {
-  myMusic.setVolume(0,1);
-  myMusic.play();
+  //myMusic.setVolume(0,1);
+  //myMusic.play();
   createCanvas(window.innerWidth,window.innerHeight);
 
   cols = floor(width/w);
